@@ -43,18 +43,7 @@ Welcome to the **Password Generator** project! 🎉 This simple and effective to
    cd password-generator
    ```
 3. Open `index.html` in your browser or use Live Server for better experience.
-
 ---
 
-## 🎯 Contribution
-Want to improve this project? Feel free to fork, improve, and submit a PR. Contributions are welcome! 🚀
-
----
-
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE). 📝
-
----
-
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Bipin Pal]
 
