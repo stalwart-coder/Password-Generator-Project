@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+}
+.result-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.result{
+    padding-left: 10px;
+}
+.copy-button{
+    padding-right: 10px;
+}
+.user-input-container{
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.numeric-value-container{
+    padding-right: 20px;
+}
+/* Slider Custom Styling */
+.slider {
+    -webkit-appearance: none; 
+    appearance: none;
+    height: 8px;
+    background: linear-gradient(to right, #e0c3fc, #a450bc);
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Slider Handle */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #fcd34d;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fcd34d;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.slider:hover {
+    background: linear-gradient(to right, #fcd34d, #8e44ad);
+}
+
+/* Thumb Hover Effect */
+.slider::-webkit-slider-thumb:hover {
+    background: #ffccff;
+    box-shadow: 0 0 15px #ffccff;
+}
+
+/* Focus Effect */
+.slider:focus {
+    outline: none;
+    box-shadow: 0 0 12px #ffccff;
+}
+.strength-indicator{
+    margin-right: 10px;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+.strength-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    animation: pulse 1s infinite;
+}
+.gen-pass-container{
+    padding: 1px;
+    margin-left: 70px;
+}
+.copy-text{
+    position: absolute;
+    background-color: #7a5285;
+    font-size: 10px;
+    top: -20px;
+    right: 1px;
+    padding: 2px 7px;
+    border-radius: 1rem;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: all 250ms ease-in-out;
+}
+.copy-text.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+  
